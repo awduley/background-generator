@@ -1,0 +1,64 @@
+// As hex codes */
+
+$color-primary-0: #236A62;	// Main Primary color */
+$color-primary-1: #6A9E99;
+$color-primary-2: #42847D;
+$color-primary-3: #0D4F48;
+$color-primary-4: #00352F;
+
+$color-complement-0: #AA6939;	// Main Complement color */
+$color-complement-1: #FFCEAA;
+$color-complement-2: #D4976A;
+$color-complement-3: #804215;
+$color-complement-4: #552400;
+
+
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba( 35,106, 98,1);	// Main Primary color */
+$rgba-primary-1: rgba(106,158,153,1);
+$rgba-primary-2: rgba( 66,132,125,1);
+$rgba-primary-3: rgba( 13, 79, 72,1);
+$rgba-primary-4: rgba(  0, 53, 47,1);
+
+$rgba-complement-0: rgba(170,105, 57,1);	// Main Complement color */
+$rgba-complement-1: rgba(255,206,170,1);
+$rgba-complement-2: rgba(212,151,106,1);
+$rgba-complement-3: rgba(128, 66, 21,1);
+$rgba-complement-4: rgba( 85, 36,  0,1);
+
+@mixin transition {
+    transition: all 400ms ease;
+}
+
+// Media query mixins
+@mixin xs {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  
+  @mixin sm {
+    @media screen and (min-width: 576px) {
+      @content;
+    }
+  }
+  
+  @mixin md {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin lg {
+    @media screen and (min-width: 992px) {
+      @content;
+    }
+  }
+  
+  @mixin xl {
+    @media screen and (min-width: 1200px) {
+      @content;
+    }
+  }

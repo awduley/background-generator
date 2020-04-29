@@ -1,0 +1,48 @@
+// Cell phones portrait
+@include xs {
+
+  }
+  
+  // Cell phones landscape
+  @include sm {
+  
+  }
+  
+  // Tablets and small laptops
+  @include md {
+  
+  }
+  
+  // Desktops and televisions
+  @include lg {
+    
+    .container {
+      width: 800px;
+      height: 600px;
+    }
+
+    .title {
+      font-size: 3rem;
+    }
+
+    .direction {
+      font-size: 2rem;
+    }
+
+    .hex-rgb-div {
+      width: 70%;
+      font-size: 1.4rem;
+      padding: 1rem .4rem;
+    }
+
+    .button {
+      padding: .6rem 1rem;
+      font-size: 1.4rem;
+    }
+  }
+  
+  // Extra large monitors
+  @include xl {
+  
+  }
+  
